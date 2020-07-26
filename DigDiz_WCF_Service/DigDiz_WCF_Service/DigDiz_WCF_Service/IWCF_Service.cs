@@ -12,6 +12,6 @@ namespace DigDiz_WCF_Service
     public interface IWCF_Service
     {
         [OperationContract]
-        string RotateAllPhotoInFolder(string path);
+        string RotateAllPhotoInFolder(string path, int angle);
     }
 }
